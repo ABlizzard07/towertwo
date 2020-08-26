@@ -22,6 +22,6 @@ class Shape{
       imageMode(CENTER);
       image(this.image,0,0,50,50);
       pop();
-      console.log(pos);
+      console.log(this.body);
   }
 }

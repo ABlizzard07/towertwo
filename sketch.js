@@ -53,6 +53,12 @@ function setup() {
 
 function draw() {
   background("white");  
+  console.error("wrongcolor");
+  console.warn("notrightcolor");
+  console.info("choosecolor");
+  console.count();
+  console.time();
+  console.timeEnd();
 
   textSize(20);
   text("Press space to play again!",1000,60);
